@@ -50,21 +50,42 @@ def translate_to_arabic(text):
         print(f"Translation to Arabic failed: {e}")
         return text
 
+
 def generate_questions(context):
     input_text = "generate questions: " + context
     input_ids = tokenizer.encode(input_text, return_tensors="pt", truncation=True, max_length=512)
     outputs = model.generate(
         input_ids,
         max_length=128,
-        num_beams=4,
+        num_beams=5,
         do_sample=True,
-        top_p=0.92,
+        top_p=0.95,
         top_k=50,
-        temperature=0.9,
-        num_return_sequences=3
+        temperature=0.8,
+        num_return_sequences=5
     )
-    decoded_outputs = [tokenizer.decode(out, skip_special_tokens=True).strip() for out in outputs]
-    return decoded_outputs
+    decoded_outputs = [
+        tokenizer.decode(out, skip_special_tokens=True).strip()
+        for out in outputs
+        if tokenizer.decode(out, skip_special_tokens=True).strip()
+    ]
+    return [q for q in decoded_outputs if len(q.split()) > 4]
+
+# def generate_questions(context):
+#     input_text = "generate questions: " + context
+#     input_ids = tokenizer.encode(input_text, return_tensors="pt", truncation=True, max_length=512)
+#     outputs = model.generate(
+#         input_ids,
+#         max_length=128,
+#         num_beams=4,
+#         do_sample=True,
+#         top_p=0.92,
+#         top_k=50,
+#         temperature=0.9,
+#         num_return_sequences=3
+#     )
+#     decoded_outputs = [tokenizer.decode(out, skip_special_tokens=True).strip() for out in outputs]
+#     return decoded_outputs
 
 def generate_fill_in_the_blank_question(context):
     input_text = f"Generate a fill-in-the-blank question: {context}"
@@ -96,18 +117,45 @@ def generate_true_false_question(context):
     )
     return tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
 
+# def classify_question(question):
+#     # تحديد نوع السؤال بناءً على النص
+#     if "?" in question or "؟" in question:
+#         if "true" in question.lower() or "false" in question.lower():
+#             return "True/False"
+#         elif "_" in question:
+#             return "Fill in the blank"
+#         elif len(question.split()) > 1:
+#             return "Multiple Choice"
+#         else:
+#             return "Single Choice"
+#     return "Essay"
+
 def classify_question(question):
-    # تحديد نوع السؤال بناءً على النص
-    if "?" in question or "؟" in question:
-        if "true" in question.lower() or "false" in question.lower():
+    q_lower = question.lower()
+    if "؟" in question or "?" in question:
+        if "صواب" in question or "خطأ" in question or "true" in q_lower or "false" in q_lower:
             return "True/False"
-        elif "_" in question:
-            return "Fill in the blank"
-        elif len(question.split()) > 1:
+        elif "___" in question or "....." in question:
+            return "Fill in the Blank"
+        elif any(opt in q_lower for opt in ["اختر", "من بين", "أي من التالي"]):
             return "Multiple Choice"
         else:
-            return "Single Choice"
+            return "Essay"
     return "Essay"
+
+# def generate_answer(context, question):
+#     input_text = f"question: {question} context: {context}"
+#     input_ids = tokenizer.encode(input_text, return_tensors="pt", truncation=True, max_length=512)
+#     outputs = model.generate(
+#         input_ids,
+#         max_length=64,
+#         num_beams=4,
+#         early_stopping=True
+#     )
+#     answer = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
+#     if not answer or len(answer) < 3 or answer.lower() in question.lower():
+#         return "No exact answer in the context."
+#     return answer
 
 def generate_answer(context, question):
     input_text = f"question: {question} context: {context}"
@@ -116,11 +164,13 @@ def generate_answer(context, question):
         input_ids,
         max_length=64,
         num_beams=4,
-        early_stopping=True
+        early_stopping=True,
+        temperature=0.8,
+        top_p=0.95
     )
     answer = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
-    if not answer or len(answer) < 3 or answer.lower() in question.lower():
-        return "No exact answer in the context."
+    if not answer or len(answer.split()) < 2:
+        return "إجابة مفتوحة من الطالب."
     return answer
 
 def generate_distractors_with_model(context, question, correct_answer, lang="en", num_distractors=3):
@@ -160,6 +210,34 @@ def save_questions(data, filename="questions.json"):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
+# def prepare_data_for_training(input_file, output_file):
+#     text = read_text_from_file(input_file)
+#     lang = detect_language(text)
+#     original_context = text
+
+#     questions = generate_questions(original_context)
+
+#     data = []
+#     for q in questions:
+#         question_type = classify_question(q)
+#         question_entry = {
+#             "question": q,
+#             "type": question_type
+#         }
+#         if question_type == "Multiple Choice":
+#             question_entry["answer"] = generate_mcq_options(original_context, q, lang=lang)
+#         elif question_type == "True/False":
+#             question_entry["answer"] = generate_true_false_question(original_context)
+#         elif question_type == "Fill in the blank":
+#             question_entry["answer"] = generate_fill_in_the_blank_question(original_context)
+#         else:
+#             # توليد إجابة للمقال
+#             answer = generate_answer(original_context, q)
+#             question_entry["answer"] = answer
+#         data.append(question_entry)
+
+#     save_questions(data, output_file)
+
 def prepare_data_for_training(input_file, output_file):
     text = read_text_from_file(input_file)
     lang = detect_language(text)
@@ -174,17 +252,21 @@ def prepare_data_for_training(input_file, output_file):
             "question": q,
             "type": question_type
         }
+
         if question_type == "Multiple Choice":
             question_entry["answer"] = generate_mcq_options(original_context, q, lang=lang)
         elif question_type == "True/False":
-            question_entry["answer"] = generate_true_false_question(original_context)
-        elif question_type == "Fill in the blank":
+            tf_answer = generate_answer(original_context, q)
+            tf_answer = "True" if "نعم" in tf_answer or "صحيح" in tf_answer else "False"
+            question_entry["answer"] = tf_answer
+        elif question_type == "Fill in the Blank":
             question_entry["answer"] = generate_fill_in_the_blank_question(original_context)
         else:
-            # توليد إجابة للمقال
             answer = generate_answer(original_context, q)
             question_entry["answer"] = answer
-        data.append(question_entry)
+
+        if question_entry["question"]:  # استبعاد الأسئلة الفارغة
+            data.append(question_entry)
 
     save_questions(data, output_file)
 
@@ -241,7 +323,7 @@ def fine_tune_model(jsonl_file):
         logging_dir="./logs",
         save_steps=500,
         logging_steps=100,
-        evaluation_strategy="no",  # ✅ لا يوجد تقييم
+        # evaluation_strategy="no",
         save_total_limit=2
     )
 
