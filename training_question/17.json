@@ -1,0 +1,209 @@
+[
+    {
+        "question": "Essay Question 1: Discuss the major achievements of Caliph Umar ibn al-Khattab.",
+        "type": "Essay",
+        "answer": "Open-ended answer discussing Umar's achievements like the expansions of the Islamic state and the establishment of the Diwan."
+    },
+    {
+        "question": "Essay Question 2: How did Abu Bakr al-Siddiq handle the apostasy wars after the death of Prophet Muhammad (PBUH)?",
+        "type": "Essay",
+        "answer": "Open-ended answer discussing the Ridda Wars and Abu Bakr's role in stabilizing the state."
+    },
+    {
+        "question": "Abu Bakr al-Siddiq became the first caliph after the death of Prophet Muhammad (PBUH).",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The Rashidun Caliphate lasted for over 100 years.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Who was the caliph who standardized the Quran into one book?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Umar ibn al-Khattab",
+                "Uthman ibn Affan",
+                "Ali ibn Abi Talib"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "The Prophet Muhammad (PBUH) passed away in the year ______ AH.",
+        "type": "Fill in the Blank",
+        "answer": "11"
+    },
+    {
+        "question": "Essay Question 3: Explain the Battle of the Camel and its causes and results.",
+        "type": "Essay",
+        "answer": "Open-ended answer discussing the Battle of the Camel during Ali's caliphate."
+    },
+    {
+        "question": "The fourth Rashidun caliph was Uthman ibn Affan.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Which caliph was known as 'Al-Farooq'?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Abu Bakr al-Siddiq",
+                "Umar ibn al-Khattab",
+                "Ali ibn Abi Talib"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Caliph Umar ibn al-Khattab ruled for approximately ______ years.",
+        "type": "Fill in the Blank",
+        "answer": "10"
+    },
+    {
+        "question": "Essay Question 4: Discuss how the Rashidun Caliphate embodied the concept of Shura (consultation).",
+        "type": "Essay",
+        "answer": "Open-ended answer discussing the importance of consultation in decision-making among the companions."
+    },
+    {
+        "question": "Uthman ibn Affan was assassinated in Medina.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The caliph who fought the apostates after the death of the Prophet was ______.",
+        "type": "Fill in the Blank",
+        "answer": "Abu Bakr al-Siddiq"
+    },
+    {
+        "question": "Who fought in the Battle of Siffin?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Uthman ibn Affan",
+                "Ali ibn Abi Talib",
+                "Abu Bakr al-Siddiq"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Essay Question 5: Describe the challenges faced by Ali ibn Abi Talib during his caliphate.",
+        "type": "Essay",
+        "answer": "Open-ended answer discussing the internal conflicts and battles such as the Battle of the Camel and Siffin."
+    },
+    {
+        "question": "The Diwan (government registers) was established during the caliphate of Umar ibn al-Khattab.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The Rashidun Caliphate ended during the rule of Ali ibn Abi Talib.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The city where the Battle of Siffin took place was ______.",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Kufa",
+                "Damascus",
+                "Siffin"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "Essay Question 6: Discuss the role of the Rashidun Caliphs in promoting social justice in the Islamic state.",
+        "type": "Essay",
+        "answer": "Open-ended answer discussing the caliphs' efforts to ensure justice among different classes of society."
+    },
+    {
+        "question": "The Rashidun Caliphate lasted for over 100 years.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "The caliph who decided to compile the Quran into a single book was ______.",
+        "type": "Fill in the Blank",
+        "answer": "Uthman ibn Affan"
+    },
+    {
+        "question": "Essay Question 7: How did the Rashidun Caliphate handle the issue of apostasy after the death of the Prophet Muhammad (PBUH)?",
+        "type": "Essay",
+        "answer": "Open-ended answer discussing the Ridda Wars and Abu Bakr's leadership."
+    },
+    {
+        "question": "Ali ibn Abi Talib faced full stability in his caliphate.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "The first Rashidun Caliph was Abu Bakr al-Siddiq.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The Battle of the Camel was fought due to a dispute over the caliphate.",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Disagreement over leadership",
+                "Dispute over taxation",
+                "Dispute over succession"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Essay Question 8: Discuss the administrative reforms introduced by Umar ibn al-Khattab during his caliphate.",
+        "type": "Essay",
+        "answer": "Open-ended answer discussing Umar's establishment of the Diwan, judiciary systems, and welfare programs."
+    },
+    {
+        "question": "The Rashidun Caliphate officially ended in 40 AH.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Ali ibn Abi Talib was assassinated in the city of ______.",
+        "type": "Fill in the Blank",
+        "answer": "Kufa"
+    },
+    {
+        "question": "The caliph who established a strong social welfare system was ______.",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Abu Bakr al-Siddiq",
+                "Umar ibn al-Khattab",
+                "Uthman ibn Affan"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Essay Question 9: Discuss the impact of the Islamic conquests on the Rashidun Caliphate.",
+        "type": "Essay",
+        "answer": "Open-ended answer discussing the military and political impact of the conquests on the Islamic empire."
+    },
+    {
+        "question": "The Rashidun Caliphate ended in the year 40 AH.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The caliph who played a significant role in the expansion into North Africa was ______.",
+        "type": "Fill in the Blank",
+        "answer": "Umar ibn al-Khattab"
+    },
+    {
+        "question": "Essay Question 10: How did the Rashidun Caliphate influence the development of Islamic law?",
+        "type": "Essay",
+        "answer": "Open-ended answer discussing the caliphs' role in establishing judicial systems based on Islamic principles."
+    }
+]

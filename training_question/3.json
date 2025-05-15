@@ -1,0 +1,380 @@
+[
+    {
+        "question": "Essay Question 1: تحدث عن تطور شركة جوجل منذ تأسيسها.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول تاريخ تطور شركة جوجل."
+    },
+    {
+        "question": "تأسست شركة جوجل في عام 1998.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "ما هي الخدمة التي قدمتها جوجل في البداية؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "محرك البحث",
+                "يوتيوب",
+                "خرائط جوجل"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "تأسس محرك بحث جوجل على يد لاري بيج وسيرجي برين في عام ______.",
+        "type": "Fill in the Blank",
+        "answer": "1998"
+    },
+    {
+        "question": "Essay Question 2: تحدث عن تأثير جوجل في عالم التكنولوجيا.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول تأثير جوجل في عالم التكنولوجيا."
+    },
+    {
+        "question": "جوجل هي جزء من مجموعة ألفابت.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "ما اسم النظام التشغيلي الذي تطوره جوجل للهواتف الذكية؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "iOS",
+                "Windows Phone",
+                "أندرويد"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "جوجل تمثل جزءًا من مجموعة ______.",
+        "type": "Fill in the Blank",
+        "answer": "ألفابت"
+    },
+    {
+        "question": "Essay Question 3: تحدث عن الخدمات التي تقدمها جوجل في مجال الإنترنت.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول خدمات جوجل على الإنترنت."
+    },
+    {
+        "question": "يوتيوب هو جزء من شركة جوجل.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "ما هو البريد الإلكتروني الذي تقدمه جوجل؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Yahoo Mail",
+                "Outlook",
+                "Gmail"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "شركة جوجل تأسست على يد ______.",
+        "type": "Fill in the Blank",
+        "answer": "لاري بيج وسيرجي برين"
+    },
+    {
+        "question": "Essay Question 4: كيف أثرت جوجل في الحياة اليومية للمستخدمين؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول تأثير جوجل في الحياة اليومية."
+    },
+    {
+        "question": "هل جوجل تمتلك تطبيقات لمستخدمي الهواتف الذكية؟",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "ما هو اسم خدمة الخرائط التي تقدمها جوجل؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Apple Maps",
+                "Bing Maps",
+                "خرائط جوجل"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "تأسست جوجل في مدينة ______.",
+        "type": "Fill in the Blank",
+        "answer": "كاليفورنيا"
+    },
+    {
+        "question": "Essay Question 5: تحدث عن مستقبل شركة جوجل في ظل التوجهات الحديثة للتكنولوجيا.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول مستقبل جوجل."
+    },
+    {
+        "question": "محرك البحث جوجل هو الأكثر استخدامًا في العالم.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "ما اسم الخدمة التي تقدمها جوجل للموسيقى؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Spotify",
+                "Google Play Music",
+                "Apple Music"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "شركة جوجل تملك خدمة يوتيوب.",
+        "type": "Fill in the Blank",
+        "answer": "صح"
+    },
+    {
+        "question": "Essay Question 6: تحدث عن كيفية استفادة الشركات من محرك بحث جوجل.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول استخدام الشركات لمحرك البحث جوجل."
+    },
+    {
+        "question": "يوتيوب هو أول موقع مملوك لجوجل.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "ما هو اسم المحرك الذي تستخدمه جوجل للبحث؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Bing",
+                "Yahoo",
+                "جوجل"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "شركة جوجل أصبحت جزءًا من مجموعة ______ في عام 2015.",
+        "type": "Fill in the Blank",
+        "answer": "ألفابت"
+    },
+    {
+        "question": "Essay Question 7: كيف ساعدت جوجل في تطور البرمجيات مفتوحة المصدر؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول مساهمة جوجل في البرمجيات مفتوحة المصدر."
+    },
+    {
+        "question": "هل جوجل توفر خدمات سحابية؟",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "ما هو اسم الخدمة التي تقدمها جوجل لحفظ الملفات سحابيًا؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "OneDrive",
+                "Dropbox",
+                "Google Drive"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "جوجل تعتبر إحدى الشركات الرائدة في مجال ______.",
+        "type": "Fill in the Blank",
+        "answer": "التكنولوجيا"
+    },
+    {
+        "question": "Essay Question 8: كيف ساهمت جوجل في تطوير الذكاء الاصطناعي؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول مساهمة جوجل في الذكاء الاصطناعي."
+    },
+    {
+        "question": "جوجل تمتلك شركة فيسبوك.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "ما هو اسم خدمة الفيديو التي تملكها جوجل؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Vimeo",
+                "YouTube",
+                "Dailymotion"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "من هو مؤسس جوجل؟",
+        "type": "Fill in the Blank",
+        "answer": "لاري بيج وسيرجي برين"
+    },
+    {
+        "question": "Essay Question 9: تحدث عن أبرز المنتجات التي قدمتها جوجل في العقد الأخير.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول أبرز منتجات جوجل في العقد الأخير."
+    },
+    {
+        "question": "جوجل تعتبر من أكبر شركات البحث على الإنترنت.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "ما هو الاسم الذي أطلقته جوجل على تقنية المساعد الصوتي الخاص بها؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Siri",
+                "Cortana",
+                "Google Assistant"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "شركة جوجل تملك خدمة البريد الإلكتروني ______.",
+        "type": "Fill in the Blank",
+        "answer": "Gmail"
+    },
+    {
+        "question": "Essay Question 10: كيف أثر تقدم محرك بحث جوجل على تحسين نتائج البحث عبر الإنترنت؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول تحسين نتائج البحث عبر الإنترنت."
+    },
+    {
+        "question": "جوجل تمتلك خدمة الخرائط المعروفة باسم Google Maps.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "أي من الخدمات التالية هي من تطوير جوجل؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Google Docs",
+                "Microsoft Office",
+                "WordPress"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "شركة جوجل تستخدم خوارزميات معقدة لتحسين ______.",
+        "type": "Fill in the Blank",
+        "answer": "نتائج البحث"
+    },
+    {
+        "question": "Essay Question 11: كيف ساعدت جوجل في تطور تقنيات البحث الصوتي؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول تقنيات البحث الصوتي."
+    },
+    {
+        "question": "جوجل تقدم خدمات المراسلة الفورية عبر تطبيق ______.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "ما اسم التطبيق الذي طورته جوجل للتعاون على المستندات عبر الإنترنت؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Google Docs",
+                "Office 365",
+                "Evernote"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "جوجل تقدم أيضًا خدمة التخزين السحابي عبر ______.",
+        "type": "Fill in the Blank",
+        "answer": "Google Drive"
+    },
+    {
+        "question": "Essay Question 12: كيف ساعدت جوجل في تحسين عملية البحث العلمي؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول تأثير جوجل في البحث العلمي."
+    },
+    {
+        "question": "هل جوجل تقدم أدوات مخصصة للمطورين؟",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "ما هو النظام الذي يستخدمه معظم هواتف أندرويد؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "iOS",
+                "Android",
+                "Windows Phone"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "شركة جوجل تطور العديد من التطبيقات التي تعمل على ______.",
+        "type": "Fill in the Blank",
+        "answer": "الهواتف الذكية"
+    },
+    {
+        "question": "Essay Question 13: كيف تطورت صناعة الإعلانات الرقمية بفضل جوجل؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول تأثير جوجل في صناعة الإعلانات الرقمية."
+    },
+    {
+        "question": "جوجل هو محرك البحث الذي يهيمن على السوق في معظم الدول.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "ما هو المنتج الذي تطوره جوجل لخدمات البريد الإلكتروني؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Yahoo Mail",
+                "Outlook",
+                "Gmail"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "جوجل يملك أكبر منصة للمحتوى المرئي عبر ______.",
+        "type": "Fill in the Blank",
+        "answer": "يوتيوب"
+    },
+    {
+        "question": "Essay Question 14: كيف غيّر جوجل الطريقة التي نتعامل بها مع المعلومات على الإنترنت؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول تغيير جوجل في تعاملنا مع المعلومات."
+    },
+    {
+        "question": "جوجل لا تدعم تقنية الذكاء الاصطناعي في خدماتها.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "ما هي خدمة جوجل التي تمكّن المستخدمين من مشاركة الصور والفيديوهات؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Google Photos",
+                "Instagram",
+                "Flickr"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "شركة جوجل تطور برامج لخدمة ______.",
+        "type": "Fill in the Blank",
+        "answer": "المطورين"
+    }
+]

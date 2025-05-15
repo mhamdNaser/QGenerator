@@ -1,0 +1,269 @@
+[
+    {
+        "question": "Essay Question 1: Discuss the childhood of Prophet Muhammad (PBUH) and the circumstances in which he grew up.",
+        "type": "Essay",
+        "answer": "An open-ended answer from the student about the early life of Prophet Muhammad (PBUH)."
+    },
+    {
+        "question": "Essay Question 2: How did Prophet Muhammad (PBUH) handle the persecution of the Quraysh during the early years of his mission?",
+        "type": "Essay",
+        "answer": "An open-ended answer from the student about the Prophet's patience and steadfastness."
+    },
+    {
+        "question": "Essay Question 3: What was the significance of the Hijrah (migration) in Islamic history?",
+        "type": "Essay",
+        "answer": "An open-ended answer from the student about the impact of the migration."
+    },
+    {
+        "question": "Essay Question 4: Discuss the role of Khadijah (RA) in supporting Prophet Muhammad (PBUH).",
+        "type": "Essay",
+        "answer": "An open-ended answer from the student about Khadijah's support."
+    },
+    {
+        "question": "Essay Question 5: What lessons can we learn from the conquest of Mecca?",
+        "type": "Essay",
+        "answer": "An open-ended answer from the student about forgiveness and victory."
+    },
+    {
+        "question": "Essay Question 6: Discuss the major battles during the life of Prophet Muhammad (PBUH).",
+        "type": "Essay",
+        "answer": "An open-ended answer from the student about the Battles of Badr, Uhud, and the Trench."
+    },
+    {
+        "question": "Essay Question 7: Discuss the character of Prophet Muhammad (PBUH) before the Prophethood.",
+        "type": "Essay",
+        "answer": "An open-ended answer from the student about the honesty and trustworthiness of the Prophet."
+    },
+    {
+        "question": "Essay Question 8: How did Prophet Muhammad (PBUH) establish the Islamic state in Medina?",
+        "type": "Essay",
+        "answer": "An open-ended answer from the student about the brotherhood and the Constitution of Medina."
+    },
+    {
+        "question": "Essay Question 9: How did Prophet Muhammad (PBUH) impact his companions?",
+        "type": "Essay",
+        "answer": "An open-ended answer from the student about the leadership and influence of the Prophet."
+    },
+    {
+        "question": "Essay Question 10: Discuss the death of Prophet Muhammad (PBUH) and its impact on the Muslim community.",
+        "type": "Essay",
+        "answer": "An open-ended answer from the student about the Prophet’s death."
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) was born in Mecca.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) grew up in a wealthy family.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) worked as a shepherd before engaging in trade.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Khadijah (RA) was the first to believe in Prophet Muhammad (PBUH).",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The revelation to Prophet Muhammad (PBUH) began in the city of Medina.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) was known as the Truthful and Trustworthy.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The Prophet Muhammad (PBUH) ordered the killing of all Meccans during the conquest of Mecca.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) established brotherhood between the Emigrants (Muhajirun) and the Helpers (Ansar).",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The Battle of Uhud took place immediately after the Battle of Badr.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) drafted the Constitution of Medina to regulate the relations between Muslims and Jews.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) was persecuted by his people in Mecca.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Prophet Muhammad’s father passed away after his birth.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "The Battle of Badr took place in the second year of Hijrah.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) passed away in the city of Mecca.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Who took care of Prophet Muhammad (PBUH) after the death of his mother?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Abu Bakr", "Abdul Muttalib", "Ali ibn Abi Talib"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Who was the Prophet’s uncle who took care of him after his grandfather?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Abbas", "Abu Talib", "Hamza"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Where did the first revelation to Prophet Muhammad (PBUH) take place?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Cave of Hira", "Cave of Thawr", "Cave of Uhud"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Who was the first wife of Prophet Muhammad (PBUH)?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Aisha", "Hafsah", "Khadijah"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "What is the name of Prophet Muhammad's (PBUH) mother?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Amina", "Fatima", "Aminah"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "In which year did Prophet Muhammad (PBUH) migrate to Medina?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["1st year of Hijrah", "2nd year of Hijrah", "10th year of Prophethood"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "What was the first battle Prophet Muhammad (PBUH) participated in?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Uhud", "The Trench", "Badr"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "How many years did Prophet Muhammad (PBUH) live after the migration?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["8 years", "10 years", "13 years"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Who was the writer of the Constitution of Medina?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Umar", "Prophet Muhammad", "Uthman"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "In which year did Prophet Muhammad (PBUH) pass away?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["10th year of Hijrah", "11th year of Hijrah", "9th year of Hijrah"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Where did Prophet Muhammad (PBUH) pass away?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Mecca", "Ta'if", "Medina"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "How old was Prophet Muhammad (PBUH) when he passed away?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["63", "60", "65"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Which tribe was Prophet Muhammad (PBUH) born into?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Banu Tamim", "Quraysh", "Ghatfan"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "How many years of revelation did Prophet Muhammad (PBUH) receive in Mecca?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["10 years", "13 years", "15 years"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) was born in the year ______ CE.",
+        "type": "Fill in the Blank",
+        "answer": "570"
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) worked in ______ before engaging in trade.",
+        "type": "Fill in the Blank",
+        "answer": "shepherding"
+    },
+    {
+        "question": "The first wife of Prophet Muhammad (PBUH) was ______.",
+        "type": "Fill in the Blank",
+        "answer": "Khadijah"
+    },
+    {
+        "question": "Prophet Muhammad (PBUH)’s mother passed away when he was ______ years old.",
+        "type": "Fill in the Blank",
+        "answer": "six"
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) entered Mecca as a conqueror in the ______ year of Hijrah.",
+        "type": "Fill in the Blank",
+        "answer": "eighth"
+    },
+    {
+        "question": "The Battle of Badr took place in the ______ year of Hijrah.",
+        "type": "Fill in the Blank",
+        "answer": "second"
+    },
+    {
+        "question": "Prophet Muhammad (PBUH) wrote the ______ in Medina.",
+        "type": "Fill in the Blank",
+        "answer": "Constitution of Medina"
+    }
+]

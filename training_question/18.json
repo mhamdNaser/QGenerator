@@ -1,0 +1,142 @@
+[
+    {
+        "question": "Essay Question 1: Discuss the importance of coral reefs in the marine ecosystem.",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student about the significance of coral reefs, such as providing habitats for marine creatures."
+    },
+    {
+        "question": "Oceans and seas cover about 60% of the Earth's surface.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "What is the name of the largest marine animal?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Blue Whale",
+                "Dolphin",
+                "Jellyfish"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Coral reefs are considered one of the most important marine ecosystems that provide shelter for many marine creatures. This statement is ______.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Essay Question 2: Discuss the challenges facing oceans and seas in the present age.",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student about challenges such as pollution and overfishing."
+    },
+    {
+        "question": "Marine resources such as oil and natural gas are non-renewable resources.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Which of the following marine creatures is the largest fish species?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Whale Shark",
+                "Salmon",
+                "Tuna"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Rising ocean temperatures due to climate change affect marine life. This statement is ______.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What is the largest ocean on Earth by area?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Pacific Ocean",
+                "Atlantic Ocean",
+                "Indian Ocean"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Fill in the blank: Oceans cover ______% of the Earth's surface.",
+        "type": "Fill in the Blank",
+        "answer": "70"
+    },
+    {
+        "question": "Essay Question 3: How can humans help in preserving the marine environment?",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student about actions such as reducing marine pollution and contributing to coral reef preservation."
+    },
+    {
+        "question": "Marine pollution includes pollution from oil and chemicals. This statement is ______.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Which of the following marine creatures is endangered?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Sea Turtles",
+                "Goldfish",
+                "Starfish"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Fill in the blank: The oceans represent about ______% of the planet's surface.",
+        "type": "Fill in the Blank",
+        "answer": "71"
+    },
+    {
+        "question": "Is overfishing harmful to the marine ecological balance?",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Essay Question 4: Why is climate change a threat to marine life?",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student about the effects of climate change such as rising temperatures."
+    },
+    {
+        "question": "Oil is one of the renewable marine resources.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "What role do fish play in the marine ecosystem?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Feeding on algae",
+                "Distributing nutrients",
+                "All of the above"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "Fill in the blank: Coral reefs are being destroyed due to ______.",
+        "type": "Fill in the Blank",
+        "answer": "pollution and overfishing"
+    },
+    {
+        "question": "Are oceans and seas a primary source of fresh water?",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Essay Question 5: Explain the relationship between marine life and the marine ecosystem.",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student about the interdependence of marine creatures and the importance of sustaining marine environments."
+    }
+]

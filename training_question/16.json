@@ -1,0 +1,212 @@
+[
+    {
+        "question": "Essay Question 1: Discuss the factors that led to the downfall of the Umayyad Caliphate.",
+        "type": "Essay",
+        "answer": "An open-ended answer discussing various causes such as revolts, social inequalities, and corruption."
+    },
+    {
+        "question": "Essay Question 2: Describe the achievements of Caliph Abd al-Malik ibn Marwan in governance.",
+        "type": "Essay",
+        "answer": "An open-ended answer explaining his administrative reforms, coinage, and unification of the state."
+    },
+    {
+        "question": "Essay Question 3: What were the major revolts against the Umayyad Caliphate?",
+        "type": "Essay",
+        "answer": "An open-ended answer covering revolts by the Shi\u2019a, Khawarij, and mawali."
+    },
+    {
+        "question": "The Umayyad Caliphate ended in 750 CE.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The Umayyad Caliphate was founded in Medina.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Who founded the Umayyad Caliphate?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Al-Walid ibn Abd al-Malik",
+                "Muawiya ibn Abi Sufyan",
+                "Abd al-Malik ibn Marwan"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "The Umayyads made ______ their capital.",
+        "type": "Fill in the Blank",
+        "answer": "Damascus"
+    },
+    {
+        "question": "The Umayyad Caliphate reached its peak under Muawiya ibn Abi Sufyan.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "The conquest of Andalusia took place during the Umayyad Caliphate.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Who was the general that led the conquest of Andalusia?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Khalid ibn al-Walid",
+                "Tariq ibn Ziyad",
+                "Uqba ibn Nafi"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "The Umayyad Caliphate expanded from China in the east to ______ in the west.",
+        "type": "Fill in the Blank",
+        "answer": "France"
+    },
+    {
+        "question": "The Umayyad Caliphate declined due to internal revolts and social inequality.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The first Umayyad caliph was ______.",
+        "type": "Fill in the Blank",
+        "answer": "Muawiya ibn Abi Sufyan"
+    },
+    {
+        "question": "Who succeeded Abd al-Malik ibn Marwan as the Umayyad caliph?",
+        "type": "Fill in the Blank",
+        "answer": "Al-Walid ibn Abd al-Malik"
+    },
+    {
+        "question": "The Umayyad Caliphate lasted less than a century.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Who was the caliph who oversaw the construction of the Umayyad Mosque in Damascus?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Abd al-Malik ibn Marwan",
+                "Al-Walid ibn Abd al-Malik",
+                "Suleiman ibn Abd al-Malik"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Essay Question 4: Discuss the challenges faced by the Umayyad Caliphate during its reign.",
+        "type": "Essay",
+        "answer": "An open-ended answer discussing internal conflicts, revolts, and struggles with political legitimacy."
+    },
+    {
+        "question": "Essay Question 5: Explain the role of the mawali (non-Arabs) in Umayyad society.",
+        "type": "Essay",
+        "answer": "An open-ended answer describing the social hierarchy and the marginalization of non-Arabs."
+    },
+    {
+        "question": "Essay Question 6: Compare the Umayyad Caliphate in the East and the Umayyad Emirate in Spain.",
+        "type": "Essay",
+        "answer": "An open-ended answer comparing their political structure, territorial extent, and cultural influence."
+    },
+    {
+        "question": "The Battle of the Zab ended the Umayyad Caliphate.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The Umayyads remained in power in Spain after the fall of the Caliphate.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The Umayyads established their capital in ______ after fleeing the Abbasid Revolution.",
+        "type": "Fill in the Blank",
+        "answer": "Cordoba"
+    },
+    {
+        "question": "Who was the caliph that introduced Islamic coinage?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Umar ibn Abd al-Aziz",
+                "Abd al-Malik ibn Marwan",
+                "Muawiya ibn Abi Sufyan"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Essay Question 7: Discuss the role of Umar ibn Abd al-Aziz in reforming the Umayyad Caliphate.",
+        "type": "Essay",
+        "answer": "An open-ended answer about his attempts to implement justice, his policies, and his piety."
+    },
+    {
+        "question": "The Umayyad Caliphate established Islamic rule in North Africa.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Who was the last Umayyad caliph in the East?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Abd al-Rahman I",
+                "Muwiyah II",
+                "Yazid III"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "The Umayyad dynasty was known for its expansion into ______.",
+        "type": "Fill in the Blank",
+        "answer": "Europe"
+    },
+    {
+        "question": "Essay Question 8: Discuss the impact of Umayyad architecture on Islamic culture.",
+        "type": "Essay",
+        "answer": "An open-ended answer discussing the construction of mosques, palaces, and urban development."
+    },
+    {
+        "question": "Muawiya ibn Abi Sufyan was a member of the ______ family.",
+        "type": "Fill in the Blank",
+        "answer": "Umayyad"
+    },
+    {
+        "question": "The Umayyads are credited with the development of ______ in Islamic governance.",
+        "type": "Fill in the Blank",
+        "answer": "hereditary rule"
+    },
+    {
+        "question": "The Umayyads implemented the use of the Arabic language for official purposes.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The last Umayyad caliph in the East, Muwiyah II, was overthrown by the ______.",
+        "type": "Fill in the Blank",
+        "answer": "Abbasids"
+    },
+    {
+        "question": "The Umayyads established the Islamic city of ______ in Spain.",
+        "type": "Fill in the Blank",
+        "answer": "Cordoba"
+    },
+    {
+        "question": "Essay Question 9: What were the main factors that led to the division between the Umayyad and Abbasid Caliphates?",
+        "type": "Essay",
+        "answer": "An open-ended answer examining the political, social, and religious causes."
+    },
+    {
+        "question": "Essay Question 10: How did the Umayyad Caliphate influence Islamic art and culture?",
+        "type": "Essay",
+        "answer": "An open-ended answer discussing artistic and cultural developments during their reign."
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Essay Question 1: تحدث عن أهمية الشمس في المجموعة الشمسية.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول أهمية الشمس ودورها في توفير الضوء والحرارة."
+    },
+    {
+        "question": "Essay Question 2: قارن بين الكواكب الصخرية والغازية.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة توضح الفرق في التركيب والموقع بين الكواكب الصخرية والغازية."
+    },
+    {
+        "question": "Essay Question 3: صف كوكب المريخ وسبب تسميته بالكوكب الأحمر.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة حول خصائص المريخ وتربته الغنية بأكسيد الحديد."
+    },
+    {
+        "question": "Essay Question 4: تحدث عن خصائص كوكب زحل ولماذا يُعد مميزًا.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة تركز على الحلقات والغازات المحيطة بكوكب زحل."
+    },
+    {
+        "question": "Essay Question 5: فسّر كيف يسبب دوران الكواكب حول نفسها تعاقب الليل والنهار.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة تشرح العلاقة بين دوران الكواكب وتعاقب الليل والنهار."
+    },
+    
+    {
+        "question": "تُعد الشمس مركز المجموعة الشمسية.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "نبتون هو أقرب كوكب إلى الشمس.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "كوكب المشتري هو أكبر كوكب في المجموعة الشمسية.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "كوكب الزهرة يملك جوًا باردًا وخفيفًا.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "الكواكب تدور حول الشمس في مدارات دائرية تمامًا.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "تمتلك معظم الكواكب أقمارًا تدور حولها.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "أورانوس له لون أزرق بسبب غاز الميثان.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "كوكب الأرض هو الكوكب الوحيد المعروف بوجود حياة عليه.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "عطارد هو أبعد كوكب عن الشمس.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "زحل يُعرف بحلقاته الجليدية.",
+        "type": "True/False",
+        "answer": "True"
+    },
+
+    {
+        "question": "ما اسم أقرب كوكب إلى الشمس؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["المريخ", "عطارد", "الزهرة"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "أي من الكواكب التالية يُعرف بالكوكب الأحمر؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["المشتري", "نبتون", "المريخ"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "ما اسم أكبر كوكب في المجموعة الشمسية؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["زحل", "المشتري", "الأرض"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "أي من الكواكب التالية يملك حلقات مرئية؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["زحل", "المريخ", "عطارد"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "أي كوكب يتميز بلونه الأزرق بسبب غاز الميثان؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["نبتون", "أورانوس", "زحل"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "أي الكواكب التالية يُعد من الكواكب الغازية؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["الزهرة", "الأرض", "المشتري"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "أي من الكواكب التالية يدور على جانبه؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["أورانوس", "نبتون", "زحل"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "أي كوكب في المجموعة الشمسية يملك بقعة حمراء عاصفة؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["نبتون", "المشتري", "أورانوس"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "أي من الكواكب التالية يصنّف ضمن الكواكب الصخرية؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["الزهرة", "زحل", "نبتون"],
+            "correctAnswer": 0
+        }
+    },
+
+    {
+        "question": "تُقسم الكواكب إلى صخرية و ______.",
+        "type": "Fill in the Blank",
+        "answer": "غازية"
+    },
+    {
+        "question": "يمتاز كوكب المشتري بوجود ______ حمراء عاصفة على سطحه.",
+        "type": "Fill in the Blank",
+        "answer": "بقعة"
+    },
+    {
+        "question": "كوكب نبتون يتميز برياحه ______.",
+        "type": "Fill in the Blank",
+        "answer": "القوية"
+    },
+    {
+        "question": "الشمس تُوفر لنا ______ وحرارة ضروريين للحياة.",
+        "type": "Fill in the Blank",
+        "answer": "الضوء"
+    },
+    {
+        "question": "كوكب أورانوس يظهر بلون أزرق بسبب غاز ______.",
+        "type": "Fill in the Blank",
+        "answer": "الميثان"
+    },
+    {
+        "question": "كوكب المريخ يُعرف بالكوكب ______.",
+        "type": "Fill in the Blank",
+        "answer": "الأحمر"
+    },
+    {
+        "question": "كوكب الأرض هو الوحيد المعروف بوجود ______ عليه.",
+        "type": "Fill in the Blank",
+        "answer": "الحياة"
+    },
+    {
+        "question": "يدور كل كوكب في مدار ______ حول الشمس.",
+        "type": "Fill in the Blank",
+        "answer": "بيضاوي"
+    },
+    {
+        "question": "تُسبب دوران الكواكب حول نفسها تعاقب ______ والنهار.",
+        "type": "Fill in the Blank",
+        "answer": "الليل"
+    },
+    {
+        "question": "زحل يتميز بحلقات مكونة من الجليد و ______.",
+        "type": "Fill in the Blank",
+        "answer": "الصخور"
+    }
+]

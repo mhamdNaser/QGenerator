@@ -1,0 +1,289 @@
+[
+    {
+        "question": "Essay Question 1: تحدث عن طفولة النبي محمد صلى الله عليه وسلم والظروف التي نشأ فيها.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول نشأة النبي صلى الله عليه وسلم."
+    },
+    {
+        "question": "Essay Question 2: كيف تعامل النبي محمد صلى الله عليه وسلم مع أذى قريش في بداية دعوته؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول صبر النبي وثباته."
+    },
+    {
+        "question": "Essay Question 3: ما أهمية الهجرة النبوية في تاريخ الإسلام؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب تتحدث عن أثر الهجرة."
+    },
+    {
+        "question": "Essay Question 4: تحدث عن دور خديجة رضي الله عنها في دعم النبي صلى الله عليه وسلم.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول خديجة ودعمها."
+    },
+    {
+        "question": "Essay Question 5: ما الدروس المستفادة من فتح مكة؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول التسامح والنصر."
+    },
+    {
+        "question": "Essay Question 6: تحدث عن أهم الغزوات في حياة النبي صلى الله عليه وسلم.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب عن بدر وأحد والخندق."
+    },
+    {
+        "question": "Essay Question 7: ناقش أخلاق النبي محمد صلى الله عليه وسلم قبل البعثة.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول الصدق والأمانة."
+    },
+    {
+        "question": "Essay Question 8: كيف أسس النبي صلى الله عليه وسلم الدولة في المدينة؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول المؤاخاة والوثيقة."
+    },
+    {
+        "question": "Essay Question 9: كيف أثر النبي صلى الله عليه وسلم في أصحابه؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب عن القيادة والتأثير النبوي."
+    },
+    {
+        "question": "Essay Question 10: تحدث عن وفاة النبي محمد صلى الله عليه وسلم وآثارها على المسلمين.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول وفاة النبي."
+    },
+    {
+        "question": "ولد النبي محمد في مكة المكرمة.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "نشأ النبي في بيت غني ومترف.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "عمل النبي في رعي الغنم قبل التجارة.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "كانت خديجة بنت خويلد أول من آمن بالنبي.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "نزل الوحي على النبي لأول مرة في المدينة.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "لقب النبي بالصادق الأمين.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "أمر النبي بقتل كل أهل مكة عند الفتح.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "آخى النبي بين المهاجرين والأنصار.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "كانت غزوة بدر بعد الهجرة مباشرة.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "كتب النبي وثيقة المدينة لتنظيم العلاقة بين المسلمين واليهود.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "توفي النبي عن عمر يناهز 70 عامًا.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "أُوذي النبي من قومه في مكة.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "توفي والد النبي بعد ولادته بسنوات.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "غزوة أحد كانت قبل غزوة بدر.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "كانت المدينة أول عاصمة للدولة الإسلامية.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "من الذي كفل النبي بعد وفاة أمه؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["أبو بكر", "عبد المطلب", "علي بن أبي طالب"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "من كان عم النبي وكفله بعد جده؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["العباس", "أبو طالب", "حمزة"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "أين نزل الوحي على النبي لأول مرة؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["غار حراء", "غار ثور", "غار أحد"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "من كانت أول زوجات النبي؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["عائشة", "حفصة", "خديجة"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "ما اسم أم النبي؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["آمنة", "فاطمة", "أمينة"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "في أي سنة هاجر النبي إلى المدينة؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["الأولى للهجرة", "الثانية للهجرة", "العاشرة للبعثة"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "ما أول غزوة قادها النبي؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["أحد", "الخندق", "بدر"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "كم سنة عاش النبي بعد الهجرة؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["8 سنوات", "10 سنوات", "13 سنة"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "من كان كاتب وثيقة المدينة؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["عمر", "النبي محمد", "عثمان"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "في أي عام توفي النبي؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["السنة العاشرة للهجرة", "السنة الحادية عشرة للهجرة", "السنة التاسعة للهجرة"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "أين توفي النبي محمد؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["مكة", "الطائف", "المدينة"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "كم كان عمر النبي عند وفاته؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["63", "60", "65"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "في أي قبيلة وُلد النبي؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["تميم", "قريش", "غطفان"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "كم عدد سنوات الوحي في مكة؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["10", "13", "15"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "ولد النبي في عام ______ ميلاديًا.",
+        "type": "Fill in the Blank",
+        "answer": "570"
+    },
+    {
+        "question": "كان يعمل النبي قبل البعثة في ______.",
+        "type": "Fill in the Blank",
+        "answer": "التجارة"
+    },
+    {
+        "question": "أول من آمن بالنبي من النساء هي ______.",
+        "type": "Fill in the Blank",
+        "answer": "خديجة"
+    },
+    {
+        "question": "توفيت والدة النبي وهو في سن ______.",
+        "type": "Fill in the Blank",
+        "answer": "السادسة"
+    },
+    {
+        "question": "دخل النبي مكة فاتحًا في السنة ______ للهجرة.",
+        "type": "Fill in the Blank",
+        "answer": "الثامنة"
+    },
+    {
+        "question": "غزوة بدر وقعت في السنة ______ للهجرة.",
+        "type": "Fill in the Blank",
+        "answer": "الثانية"
+    },
+    {
+        "question": "كتب النبي وثيقة ______ في المدينة.",
+        "type": "Fill in the Blank",
+        "answer": "المدينة"
+    },
+    {
+        "question": "لقب النبي بــــ ______ الأمين.",
+        "type": "Fill in the Blank",
+        "answer": "الصادق"
+    },
+    {
+        "question": "كان النبي في غار ______ عندما نزل عليه الوحي.",
+        "type": "Fill in the Blank",
+        "answer": "حراء"
+    },
+    {
+        "question": "توفي النبي في السنة ______ للهجرة.",
+        "type": "Fill in the Blank",
+        "answer": "الحادية عشرة"
+    }
+]

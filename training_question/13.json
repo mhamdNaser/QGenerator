@@ -1,0 +1,272 @@
+[
+    {
+        "question": "Essay Question 1: Talk about the development of Google since its founding.",
+        "type": "Essay",
+        "answer": "Open answer from the student about the development of Google."
+    },
+    {
+        "question": "Google was founded in 1998.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What service did Google offer initially?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Search Engine",
+                "YouTube",
+                "Google Maps"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Google’s search engine was founded by Larry Page and Sergey Brin in ______.",
+        "type": "Fill in the Blank",
+        "answer": "1998"
+    },
+    {
+        "question": "Essay Question 2: Discuss Google’s impact on the technology world.",
+        "type": "Essay",
+        "answer": "Open answer from the student about Google’s impact on the technology world."
+    },
+    {
+        "question": "Google is part of the Alphabet group.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What is the name of the operating system Google develops for smartphones?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "iOS",
+                "Windows Phone",
+                "Android"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "Google is part of the ______ group.",
+        "type": "Fill in the Blank",
+        "answer": "Alphabet"
+    },
+    {
+        "question": "Essay Question 3: Discuss the services Google provides in the internet sector.",
+        "type": "Essay",
+        "answer": "Open answer from the student about Google’s services on the internet."
+    },
+    {
+        "question": "YouTube is part of Google.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What is the name of the email service offered by Google?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Yahoo Mail",
+                "Outlook",
+                "Gmail"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "Google was founded by ______.",
+        "type": "Fill in the Blank",
+        "answer": "Larry Page and Sergey Brin"
+    },
+    {
+        "question": "Essay Question 4: Discuss how Google has impacted daily life for users.",
+        "type": "Essay",
+        "answer": "Open answer from the student about Google’s impact on daily life."
+    },
+    {
+        "question": "Google owns a service called Google Maps.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What is the name of the service developed by Google for maps?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Apple Maps",
+                "Bing Maps",
+                "Google Maps"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "Google was founded in ______.",
+        "type": "Fill in the Blank",
+        "answer": "California"
+    },
+    {
+        "question": "Essay Question 5: Discuss the future of Google considering current technological trends.",
+        "type": "Essay",
+        "answer": "Open answer from the student about Google’s future."
+    },
+    {
+        "question": "Google is the most used search engine worldwide.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What is the name of the music service developed by Google?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Spotify",
+                "Google Play Music",
+                "Apple Music"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Google owns YouTube.",
+        "type": "Fill in the Blank",
+        "answer": "True"
+    },
+    {
+        "question": "Essay Question 6: Discuss how businesses benefit from Google’s search engine.",
+        "type": "Essay",
+        "answer": "Open answer from the student about how businesses use Google’s search engine."
+    },
+    {
+        "question": "YouTube is the first company owned by Google.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Which of the following is developed by Google?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Google Docs",
+                "Microsoft Office",
+                "WordPress"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Google uses complex algorithms to improve ______.",
+        "type": "Fill in the Blank",
+        "answer": "search results"
+    },
+    {
+        "question": "Essay Question 7: How has Google contributed to the development of voice search technologies?",
+        "type": "Essay",
+        "answer": "Open answer from the student about voice search technologies."
+    },
+    {
+        "question": "Google does not own any instant messaging services.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "What is the name of Google’s voice assistant technology?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Siri",
+                "Cortana",
+                "Google Assistant"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "Google’s email service is called ______.",
+        "type": "Fill in the Blank",
+        "answer": "Gmail"
+    },
+    {
+        "question": "Essay Question 8: How has Google helped improve the way we search for academic research?",
+        "type": "Essay",
+        "answer": "Open answer from the student about how Google improved academic research."
+    },
+    {
+        "question": "Does Google offer developer tools?",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What is the operating system used by most Android smartphones?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "iOS",
+                "Android",
+                "Windows Phone"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Google develops applications that run on ______.",
+        "type": "Fill in the Blank",
+        "answer": "smartphones"
+    },
+    {
+        "question": "Essay Question 9: How has Google changed digital advertising?",
+        "type": "Essay",
+        "answer": "Open answer from the student about how Google changed digital advertising."
+    },
+    {
+        "question": "Google is the most used search engine in most countries.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What is the name of the email service that Google developed?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Yahoo Mail",
+                "Outlook",
+                "Gmail"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "Google owns the largest video-sharing platform, called ______.",
+        "type": "Fill in the Blank",
+        "answer": "YouTube"
+    },
+    {
+        "question": "Essay Question 10: How has Google changed the way we interact with information online?",
+        "type": "Essay",
+        "answer": "Open answer from the student about how Google changed our interaction with information online."
+    },
+    {
+        "question": "Google does not use artificial intelligence in its services.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "What is the name of the service Google offers to store photos and videos?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Google Photos",
+                "Instagram",
+                "Flickr"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Google develops tools for ______.",
+        "type": "Fill in the Blank",
+        "answer": "developers"
+    }
+]

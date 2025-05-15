@@ -1,0 +1,336 @@
+[
+    {
+        "question": "Essay Question 1: Describe the process of volcanic eruption and its causes.",
+        "type": "Essay",
+        "answer": "An open-ended response detailing the causes and process of volcanic eruptions."
+    },
+    {
+        "question": "Essay Question 2: Discuss the positive and negative impacts of volcanic eruptions on the environment.",
+        "type": "Essay",
+        "answer": "An open-ended response discussing both beneficial and harmful effects of volcanic eruptions."
+    },
+    {
+        "question": "Essay Question 3: Explain the differences between shield volcanoes, stratovolcanoes, and cinder cone volcanoes.",
+        "type": "Essay",
+        "answer": "An open-ended response comparing the three types of volcanoes."
+    },
+    {
+        "question": "Essay Question 4: How do scientists monitor volcanic activity to predict eruptions?",
+        "type": "Essay",
+        "answer": "An open-ended response explaining the methods used to monitor volcanoes."
+    },
+    {
+        "question": "Essay Question 5: Analyze the role of tectonic plates in the formation of volcanoes.",
+        "type": "Essay",
+        "answer": "An open-ended response analyzing how tectonic plate movements lead to volcano formation."
+    },
+    {
+        "question": "True or False: All volcanoes are formed at tectonic plate boundaries.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "True or False: Magma is called lava once it reaches the Earth's surface.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "True or False: Dormant volcanoes are those that have erupted recently.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "True or False: Volcanic ash can be beneficial for agriculture.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "True or False: The Ring of Fire is an area with a high concentration of volcanoes.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Which of the following is a type of volcano characterized by gentle slopes and non-explosive eruptions?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Stratovolcano",
+                "Shield volcano",
+                "Cinder cone volcano"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "What is the primary component of magma?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Molten rock",
+                "Water",
+                "Carbon dioxide"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Which instrument is used to detect earthquakes that may indicate volcanic activity?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Thermometer",
+                "Barometer",
+                "Seismograph"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "Which gas is commonly released during a volcanic eruption?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Oxygen",
+                "Carbon dioxide",
+                "Hydrogen"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Which of the following volcanoes is located in Italy?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Mount Fuji",
+                "Mount Vesuvius",
+                "Mount St. Helens"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "The molten rock beneath the Earth's surface is called ______.",
+        "type": "Fill in the Blank",
+        "answer": "magma"
+    },
+    {
+        "question": "The Ring of Fire is located around the ______ Ocean.",
+        "type": "Fill in the Blank",
+        "answer": "Pacific"
+    },
+    {
+        "question": "A volcano that is not expected to erupt again is termed ______.",
+        "type": "Fill in the Blank",
+        "answer": "extinct"
+    },
+    {
+        "question": "The opening at the top of a volcano is called the ______.",
+        "type": "Fill in the Blank",
+        "answer": "crater"
+    },
+    {
+        "question": "Volcanic ash can enrich soil with ______.",
+        "type": "Fill in the Blank",
+        "answer": "minerals"
+    },
+    {
+        "question": "Essay Question 6: Evaluate the impact of volcanic eruptions on global climate patterns.",
+        "type": "Essay",
+        "answer": "An open-ended response evaluating how volcanic eruptions influence climate."
+    },
+    {
+        "question": "Essay Question 7: Describe the formation and characteristics of a caldera.",
+        "type": "Essay",
+        "answer": "An open-ended response describing caldera formation and features."
+    },
+    {
+        "question": "Essay Question 8: Discuss the role of volcanoes in the Earth's geological cycle.",
+        "type": "Essay",
+        "answer": "An open-ended response discussing how volcanoes contribute to geological processes."
+    },
+    {
+        "question": "Essay Question 9: Explain how volcanic islands are formed.",
+        "type": "Essay",
+        "answer": "An open-ended response explaining the formation of volcanic islands."
+    },
+    {
+        "question": "Essay Question 10: Analyze the economic effects of volcanic eruptions on nearby communities.",
+        "type": "Essay",
+        "answer": "An open-ended response analyzing the economic impact of eruptions."
+    },
+    {
+        "question": "True or False: Lava flows can travel at speeds up to 100 km/h.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "True or False: Volcanic eruptions can trigger tsunamis.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "True or False: All volcanic eruptions are explosive.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "True or False: Volcanic activity is only found on Earth.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "True or False: Volcanic rocks can be used in construction.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Which type of lava has a smooth, rope-like surface?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Aa lava",
+                "Pahoehoe lava",
+                "Blocky lava"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "What is a pyroclastic flow?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "A slow-moving lava flow",
+                "A fast-moving current of hot gas and volcanic matter",
+                "A type of volcanic rock"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Which planet in our solar system has the largest volcano?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Earth",
+                "Mars",
+                "Venus"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Which volcanic eruption in 1883 was one of the most violent in recorded history?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Mount St. Helens",
+                "Krakatoa",
+                "Mount Etna"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "What is the term for a volcano that has not erupted in historical times but may erupt again?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Active",
+                "Dormant",
+                "Extinct"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "The largest volcano in the solar system is ______ Mons on Mars.",
+        "type": "Fill in the Blank",
+        "answer": "Olympus"
+    },
+    {
+        "question": "Volcanic eruptions can release large amounts of ______ dioxide into the atmosphere.",
+        "type": "Fill in the Blank",
+        "answer": "sulfur"
+    },
+    {
+        "question": "A ______ is a bowl-shaped depression at the top of a volcano.",
+        "type": "Fill in the Blank",
+        "answer": "crater"
+    },
+    {
+        "question": "The ______ of Fire is a major area in the Pacific Ocean basin with many volcanoes.",
+        "type": "Fill in the Blank",
+        "answer": "Ring"
+    },
+    {
+        "question": "Volcanic activity beneath glaciers can cause sudden floods known as ______.",
+        "type": "Fill in the Blank",
+        "answer": "jökulhlaups"
+    },
+    {
+        "question": "Essay Question 11: Discuss how volcanic eruptions have influenced human history and civilizations.",
+        "type": "Essay",
+        "answer": "An open-ended response analyzing the historical impact of volcanic eruptions."
+    },
+    {
+        "question": "Essay Question 12: Describe the emergency measures that should be taken before and after a volcanic eruption.",
+        "type": "Essay",
+        "answer": "An open-ended response detailing safety and preparedness protocols."
+    },
+    {
+        "question": "True or False: Volcanic activity can be detected by changes in gas emissions.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "True or False: Stratovolcanoes are typically less explosive than shield volcanoes.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Which part of the volcano is located underground and stores magma?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Crater",
+                "Vent",
+                "Magma chamber"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "What is the name of the narrow passage through which magma travels to the surface?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Vent",
+                "Crater",
+                "Lava tube"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "A volcanic eruption that occurs under water can form a ______.",
+        "type": "Fill in the Blank",
+        "answer": "seamount"
+    },
+    {
+        "question": "Volcanologists use ______ imagery to monitor temperature changes in volcanoes.",
+        "type": "Fill in the Blank",
+        "answer": "satellite"
+    },
+    {
+        "question": "Volcanoes can help create new land through the accumulation of solidified ______.",
+        "type": "Fill in the Blank",
+        "answer": "lava"
+    },
+    {
+        "question": "Essay Question 13: Explain the long-term environmental effects of a major volcanic eruption.",
+        "type": "Essay",
+        "answer": "An open-ended response that discusses impacts such as climate change, soil enrichment, and landscape transformation."
+    }
+]

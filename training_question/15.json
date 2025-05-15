@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Essay Question 1: Discuss the importance of the Sun in the Solar System.",
+        "type": "Essay",
+        "answer": "Open answer about the Sun’s role in providing light and heat."
+    },
+    {
+        "question": "Essay Question 2: Compare the rocky and gas planets.",
+        "type": "Essay",
+        "answer": "Open answer comparing composition and position of the planets."
+    },
+    {
+        "question": "Essay Question 3: Describe Mars and why it’s called the Red Planet.",
+        "type": "Essay",
+        "answer": "Open answer about Mars' surface and iron-rich soil."
+    },
+    {
+        "question": "Essay Question 4: Write about the unique features of Saturn.",
+        "type": "Essay",
+        "answer": "Open answer about Saturn's rings and structure."
+    },
+    {
+        "question": "Essay Question 5: Explain how rotation causes day and night.",
+        "type": "Essay",
+        "answer": "Open answer explaining planetary rotation and time cycles."
+    },
+
+    {
+        "question": "The Sun is the center of the Solar System.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Neptune is the closest planet to the Sun.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Jupiter is the largest planet in the Solar System.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Venus has a cold and light atmosphere.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Planets orbit the Sun in perfect circles.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Most planets have moons orbiting them.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Uranus looks blue because of methane gas.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Earth is the only planet known to support life.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Mercury is the farthest planet from the Sun.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Saturn is known for its icy rings.",
+        "type": "True/False",
+        "answer": "True"
+    },
+
+    {
+        "question": "Which planet is closest to the Sun?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Mars", "Mercury", "Venus"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Which planet is called the Red Planet?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Jupiter", "Neptune", "Mars"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "What is the largest planet in the Solar System?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Saturn", "Jupiter", "Earth"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Which planet has visible rings?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Saturn", "Mars", "Mercury"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Which planet appears blue due to methane gas?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Neptune", "Uranus", "Saturn"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Which planet is a gas giant?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Venus", "Earth", "Jupiter"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "Which planet rotates on its side?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Uranus", "Neptune", "Saturn"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Which planet has a Great Red Spot storm?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Neptune", "Jupiter", "Uranus"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Which of the following is a rocky planet?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["Venus", "Saturn", "Neptune"],
+            "correctAnswer": 0
+        }
+    },
+
+    {
+        "question": "The planets are classified into rocky and ______ planets.",
+        "type": "Fill in the Blank",
+        "answer": "gas"
+    },
+    {
+        "question": "Jupiter has a large red ______ on its surface.",
+        "type": "Fill in the Blank",
+        "answer": "spot"
+    },
+    {
+        "question": "Neptune is known for its strong ______.",
+        "type": "Fill in the Blank",
+        "answer": "winds"
+    },
+    {
+        "question": "The Sun provides light and ______ necessary for life.",
+        "type": "Fill in the Blank",
+        "answer": "heat"
+    },
+    {
+        "question": "Uranus appears blue due to the gas called ______.",
+        "type": "Fill in the Blank",
+        "answer": "methane"
+    },
+    {
+        "question": "Mars is often called the ______ Planet.",
+        "type": "Fill in the Blank",
+        "answer": "Red"
+    },
+    {
+        "question": "Earth is the only planet known to support ______.",
+        "type": "Fill in the Blank",
+        "answer": "life"
+    },
+    {
+        "question": "Each planet revolves in an ______ orbit around the Sun.",
+        "type": "Fill in the Blank",
+        "answer": "elliptical"
+    },
+    {
+        "question": "Planetary rotation causes the cycle of day and ______.",
+        "type": "Fill in the Blank",
+        "answer": "night"
+    },
+    {
+        "question": "Saturn’s rings are made of ice and ______.",
+        "type": "Fill in the Blank",
+        "answer": "rock"
+    }
+]

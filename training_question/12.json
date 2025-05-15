@@ -1,0 +1,223 @@
+[
+    {
+        "question": "Essay Question 1: Discuss the importance of information technology in our daily lives.",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student on the importance of IT in various aspects of life."
+    },
+    {
+        "question": "Has information technology become an integral part of our lives?",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What are the main applications in which information technology is used?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Education",
+                "Commerce",
+                "Healthcare",
+                "All of the above"
+            ],
+            "correctAnswer": 3
+        }
+    },
+    {
+        "question": "Information technology has been widely adopted in the field of ________.",
+        "type": "Fill in the Blank",
+        "answer": "Healthcare"
+    },
+    {
+        "question": "Essay Question 2: How has information technology contributed to the improvement of the education sector?",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student about the impact of IT on education."
+    },
+    {
+        "question": "Has information technology contributed to the development of communication tools?",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What technology has helped facilitate online learning?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "The Internet",
+                "Artificial Intelligence",
+                "Internet of Things",
+                "All of the above"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "________ is one of the key technologies that have contributed to modern information technology.",
+        "type": "Fill in the Blank",
+        "answer": "Artificial Intelligence"
+    },
+    {
+        "question": "Essay Question 3: What are the main challenges faced by information technology today?",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student on challenges such as security, privacy, and hacking."
+    },
+    {
+        "question": "Is it expected that information technology will continue to evolve?",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Which of the following fields is continuously evolving due to information technology?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Healthcare",
+                "Commerce",
+                "Cybersecurity",
+                "All of the above"
+            ],
+            "correctAnswer": 3
+        }
+    },
+    {
+        "question": "Healthcare professionals use information technology in ________.",
+        "type": "Fill in the Blank",
+        "answer": "Diagnosis"
+    },
+    {
+        "question": "Essay Question 4: How has information technology helped improve the commerce sector?",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student on the role of IT in e-commerce."
+    },
+    {
+        "question": "Has information technology helped to facilitate communication between people?",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Which of the following describes an application of information technology in daily life?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Email",
+                "Social networking",
+                "Smartphone apps",
+                "All of the above"
+            ],
+            "correctAnswer": 3
+        }
+    },
+    {
+        "question": "Information technology can lead to issues in ________.",
+        "type": "Fill in the Blank",
+        "answer": "Privacy"
+    },
+    {
+        "question": "Essay Question 5: What is the relationship between information technology and data security?",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student about the importance of security in IT."
+    },
+    {
+        "question": "Is cybersecurity a part of information technology?",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Which of these technologies can contribute to data management improvements?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Artificial Intelligence",
+                "Cloud Computing",
+                "Internet of Things",
+                "All of the above"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Information technology has been increasingly applied in ________ data management.",
+        "type": "Fill in the Blank",
+        "answer": "Data"
+    },
+    {
+        "question": "Essay Question 6: How has information technology impacted the global economy?",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student on the impact of IT on the global economy."
+    },
+    {
+        "question": "Has information technology contributed to improving education?",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Information technology helps to ________ government services.",
+        "type": "Fill in the Blank",
+        "answer": "Improve"
+    },
+    {
+        "question": "Essay Question 7: Discuss the impact of information technology on the media sector.",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student on the effect of IT on media and journalism."
+    },
+    {
+        "question": "Has information technology been linked to the development of new media technologies?",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Which of the following does not fall under the impact of information technology?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Education",
+                "Healthcare",
+                "Sports",
+                "Agriculture"
+            ],
+            "correctAnswer": 3
+        }
+    },
+    {
+        "question": "Information technology has contributed to the ________ of online education.",
+        "type": "Fill in the Blank",
+        "answer": "Expansion"
+    },
+    {
+        "question": "Essay Question 8: How has information technology influenced the development of social media platforms?",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student about the role of IT in social media development."
+    },
+    {
+        "question": "Can information technology lead to privacy issues?",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Which technology is used to secure data in information technology?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Encryption",
+                "Cloud Computing",
+                "Artificial Intelligence",
+                "Social Networks"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Information technology helps to improve ________ in organizations.",
+        "type": "Fill in the Blank",
+        "answer": "Efficiency"
+    },
+    {
+        "question": "Essay Question 9: Explain how information technology has affected the development of remote learning tools.",
+        "type": "Essay",
+        "answer": "Open-ended answer from the student about the effect of IT on remote learning tools."
+    },
+    {
+        "question": "Has information technology helped in facilitating scientific research?",
+        "type": "True/False",
+        "answer": "True"
+    }
+]

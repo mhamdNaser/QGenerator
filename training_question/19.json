@@ -1,0 +1,78 @@
+[
+    {
+        "question": "Essay Question 1: Discuss the significance of the loan contract between Antonio and Shylock in the development of the play's events.",
+        "type": "Essay",
+        "answer": "Open-ended response from the student about the contract and its impact on the story."
+    },
+    {
+        "question": "The play takes place in the city of Venice.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Who is the merchant that borrows money from Shylock?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Antonio",
+                "Bassanio",
+                "Shylock"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Antonio and Shylock agreed on a loan of ______.",
+        "type": "Fill in the Blank",
+        "answer": "Three thousand ducats"
+    },
+    {
+        "question": "Essay Question 2: Explain how Portia played a crucial role in saving Antonio.",
+        "type": "Essay",
+        "answer": "Open-ended response from the student about Portia's legal plan."
+    },
+    {
+        "question": "Shylock was a Jew in the play.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Who was in love with Portia in the play?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Antonio",
+                "Bassanio",
+                "Shylock"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "Was Antonio able to repay the loan on time?",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "Essay Question 3: Discuss the conflict between Antonio and Shylock and how it affected the other characters.",
+        "type": "Essay",
+        "answer": "Open-ended response from the student about the conflict and its effects."
+    },
+    {
+        "question": "Where do most of the events in the play take place?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Rome",
+                "Venice",
+                "Milan"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "In the end, was the punishment Shylock demanded from Antonio carried out?",
+        "type": "True/False",
+        "answer": "False"
+    }
+]

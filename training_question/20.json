@@ -1,0 +1,178 @@
+[
+    {
+        "question": "Essay Question 1: Discuss the major achievements of ancient Egyptian civilization in architecture.",
+        "type": "Essay",
+        "answer": "Open-ended response from the student about the topic."
+    },
+    {
+        "question": "The three pyramids in Giza are considered one of the Seven Wonders of the World.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What is the name of the writing system created by the ancient Egyptians?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Hieroglyphics",
+                "Latin",
+                "Arabic"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "The pharaoh was considered a ______ in ancient Egyptian civilization.",
+        "type": "Fill in the Blank",
+        "answer": "deified ruler"
+    },
+    {
+        "question": "Essay Question 2: What role did ancient Egyptian religion play in daily life?",
+        "type": "Essay",
+        "answer": "Open-ended response from the student about the topic."
+    },
+    {
+        "question": "The ancient Egyptians believed in polytheism, worshiping many gods.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Where are the famous three pyramids located?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Giza",
+                "Luxor",
+                "Fayoum"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Luxor is one of the most important cities in ancient Egypt.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What is the most famous temple in Luxor?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Karnak Temple",
+                "Abu Simbel Temple",
+                "Hatshepsut Temple"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Essay Question 3: Describe the development of astronomy in ancient Egypt.",
+        "type": "Essay",
+        "answer": "Open-ended response from the student about the topic."
+    },
+    {
+        "question": "The pharaohs believed they had the power to control natural phenomena.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Who is considered the most famous pharaoh in ancient Egypt?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Tutankhamun",
+                "Ramesses II",
+                "Ahmose"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "The ancient Egyptians used hieroglyphics in many aspects of daily life.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Essay Question 4: How did ancient Egyptian civilization contribute to the development of medicine?",
+        "type": "Essay",
+        "answer": "Open-ended response from the student about the topic."
+    },
+    {
+        "question": "The pharaohs were buried in the pyramids.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "During which period did ancient Egyptian civilization flourish?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Old Kingdom",
+                "New Kingdom",
+                "Middle Kingdom"
+            ],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "What was the primary function of the pyramids in ancient Egypt?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Royal tombs",
+                "Religious temples",
+                "Defensive fortresses"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "Essay Question 5: Compare and contrast ancient Egyptian civilization with other ancient civilizations.",
+        "type": "Essay",
+        "answer": "Open-ended response from the student about the topic."
+    },
+    {
+        "question": "Astronomy was one of the fields that developed in ancient Egypt.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "The pharaohs had a well-organized system to govern their society.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "What did the ancient Egyptians believe the gods represented?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Nature spirits",
+                "Mythical creatures",
+                "Divine forces"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "Where is Karnak Temple located in Egypt?",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "Upper Egypt",
+                "Lower Egypt",
+                "Eastern Desert"
+            ],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "The ancient Egyptians worshiped the god Amun.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "Essay Question 6: Discuss the role of pharaohs in maintaining the unity of Egypt and its people.",
+        "type": "Essay",
+        "answer": "Open-ended response from the student about the topic."
+    }
+]

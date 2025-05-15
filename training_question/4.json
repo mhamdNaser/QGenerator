@@ -1,0 +1,261 @@
+[
+    {
+        "question": "Essay Question 1: وضح كيف تتكون البراكين وما العوامل التي تؤدي إلى ثورانها.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة من الطالب حول كيفية تكون البراكين والعوامل المؤثرة."
+    },
+    {
+        "question": "Essay Question 2: ناقش الآثار السلبية والإيجابية للبراكين.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة حول تأثيرات البراكين على البيئة والإنسان."
+    },
+    {
+        "question": "تخرج المواد المنصهرة من باطن الأرض عبر البراكين.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "البراكين لا تؤثر أبدًا على حياة الإنسان.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "من أشهر البراكين في العالم بركان فيزوف.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "تتكون البراكين من المياه العذبة التي تتبخر من باطن الأرض.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "ما اسم البركان الشهير الموجود في إيطاليا؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["كراكاتوا", "فيزوف", "إتنا"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "أي من الأنواع التالية يُعتبر من أنواع البراكين؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["درعية", "نارية", "سائلة"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "أي من التالي جهاز يُستخدم لمراقبة نشاط البركان؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["مقياس الحرارة", "مقياس الزلازل", "كلاهما"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "تخرج الماجما إلى سطح الأرض عبر ______.",
+        "type": "Fill in the Blank",
+        "answer": "الشقوق"
+    },
+    {
+        "question": "تُساهم البراكين في تخصيب ______ بالتربة الغنية بالمعادن.",
+        "type": "Fill in the Blank",
+        "answer": "الأراضي"
+    },
+    {
+        "question": "تُعد البراكين مصدرًا من مصادر الطاقة ______.",
+        "type": "Fill in the Blank",
+        "answer": "الحرارية الأرضية"
+    },
+    {
+        "question": "Essay Question 3: قارن بين البراكين النشطة والخامدة.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة حول الفرق بين النوعين."
+    },
+    {
+        "question": "Essay Question 4: ما طرق مراقبة النشاط البركاني ولماذا هي مهمة؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة حول التقنيات وأهميتها."
+    },
+    {
+        "question": "الماجما هي مواد صلبة تخرج من البركان.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "البركان الطبقي يتكون من عدة طبقات من الحمم والرماد.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "أي من التالي ليس نوعًا من أشكال البراكين؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["طبقي", "هرمي", "درعي"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "البراكين تؤثر على المناخ عبر إطلاق ______.",
+        "type": "Fill in the Blank",
+        "answer": "الغازات"
+    },
+    {
+        "question": "بركان كراكاتوا يقع في دولة ______.",
+        "type": "Fill in the Blank",
+        "answer": "إندونيسيا"
+    },
+    {
+        "question": "Essay Question 5: كيف يمكن للدول التخفيف من مخاطر البراكين؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة حول الاستعدادات والإجراءات الوقائية."
+    },
+    {
+        "question": "Essay Question 6: لماذا تعتبر بعض البراكين خطيرة على المدن القريبة منها؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة حول أسباب خطورة البراكين القريبة من المدن."
+    },
+    {
+        "question": "Essay Question 7: ما الفرق بين الحمم البركانية والماجما؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة حول الاختلاف بين المصطلحين."
+    },
+    {
+        "question": "True or False: البراكين لا تُحدث تغييرات في شكل سطح الأرض.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "True or False: يُعد جبل إتنا من البراكين الموجودة في صقلية.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "True or False: كل البراكين تثور مرة واحدة فقط في تاريخها.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "True or False: الرماد البركاني يمكن أن يؤثر على الطيران الجوي.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "ما الاسم الذي يُطلق على المواد التي يقذفها البركان وتكون صلبة؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["الماجما", "الحمم", "الرماد البركاني"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "أي مما يلي ليس من فوائد البراكين؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["تخصيب التربة", "توليد الطاقة", "زيادة الفقر"],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "في أي طبقة من طبقات الأرض تتكون الماجما؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["القشرة", "الوشاح", "النواة"],
+            "correctAnswer": 1
+        }
+    },
+    {
+        "question": "تُسمى الصخور المنصهرة تحت سطح الأرض بـ ______.",
+        "type": "Fill in the Blank",
+        "answer": "الماجما"
+    },
+    {
+        "question": "البركان ______ هو الذي لم يثر منذ مدة طويلة ولكن قد يثور في المستقبل.",
+        "type": "Fill in the Blank",
+        "answer": "الخامد"
+    },
+    {
+        "question": "تُساعد أجهزة ______ في قياس نشاط الزلازل القريبة من البراكين.",
+        "type": "Fill in the Blank",
+        "answer": "مقياس الزلازل"
+    },
+    {
+        "question": "Essay Question 8: وضّح كيف تؤثر البراكين على الحياة النباتية والحيوانية.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة حول الأثر البيئي للبراكين."
+    },
+    {
+        "question": "Essay Question 9: كيف يمكن استخدام البراكين كمصدر للطاقة المتجددة؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة حول استغلال الطاقة الحرارية الأرضية."
+    },
+    {
+        "question": "True or False: البراكين لا تنبعث منها أي غازات.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "True or False: الرماد البركاني يسبب أضرارًا للرئة عند استنشاقه.",
+        "type": "True/False",
+        "answer": "True"
+    },
+    {
+        "question": "True or False: جميع البراكين تتشكل في قاع المحيطات.",
+        "type": "True/False",
+        "answer": "False"
+    },
+    {
+        "question": "أي من البراكين التالية يعتبر من النوع الدرعي؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["ماونا لوا", "فيزوف", "إتنا"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "ما نوع البركان الذي يتميز بانحدار قليل وثورات متكررة؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": ["درعي", "طبقي", "مخروطي"],
+            "correctAnswer": 0
+        }
+    },
+    {
+        "question": "أي من الخيارات التالية يصف البركان الهامد؟",
+        "type": "Multiple Choice",
+        "answer": {
+            "options": [
+                "لم يثر أبدًا",
+                "ثار مؤخرًا",
+                "يُعتقد أنه لن يثور مجددًا"
+            ],
+            "correctAnswer": 2
+        }
+    },
+    {
+        "question": "البركان ______ يتميز بثوراته المنتظمة والمتكررة.",
+        "type": "Fill in the Blank",
+        "answer": "النشط"
+    },
+    {
+        "question": "يُطلق على المواد التي تخرج من فوهة البركان اسم ______.",
+        "type": "Fill in the Blank",
+        "answer": "الحمم البركانية"
+    },
+    {
+        "question": "من أشهر البراكين في إندونيسيا: بركان ______.",
+        "type": "Fill in the Blank",
+        "answer": "كراكاتوا"
+    },
+    {
+        "question": "Essay Question 10: ما هي أبرز المظاهر الجيولوجية التي تتركها البراكين بعد ثورانها؟",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة حول آثار البراكين الجغرافية والتضاريس."
+    },
+    {
+        "question": "Essay Question 11: تحدث عن أهمية دراسة البراكين في حماية الإنسان والبيئة.",
+        "type": "Essay",
+        "answer": "إجابة مفتوحة حول فوائد دراسة البراكين."
+    }
+]
