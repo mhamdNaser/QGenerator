@@ -3,6 +3,8 @@ import os
 import random
 import torch
 from transformers import T5ForConditionalGeneration, T5Tokenizer, Trainer, TrainingArguments, DataCollatorForSeq2Seq
+from transformers import Trainer, TrainingArguments
+from transformers import TrainerCallback
 from datasets import load_dataset
 from deep_translator import GoogleTranslator
 from langdetect import detect
@@ -15,6 +17,14 @@ if use_fine_tuned and os.path.exists("./fine_tuned_model"):
 else:
     model = T5ForConditionalGeneration.from_pretrained("valhalla/t5-base-qg-hl")
     tokenizer = T5Tokenizer.from_pretrained("t5-base")
+
+model.config.pad_token_id = tokenizer.pad_token_id
+
+
+class PrintLearningRateCallback(TrainerCallback):
+    def on_log(self, args, state, control, logs=None, **kwargs):
+        if logs is not None and "learning_rate" in logs:
+            print(f"🔁 Learning rate: {logs['learning_rate']:.8f}")
 
 
 
@@ -51,8 +61,13 @@ def translate_to_arabic(text):
         return text
 
 
-def generate_questions(context):
-    input_text = "generate questions: " + context
+def generate_questions(context, lang="en"):
+    if lang == "ar":
+        prefix = "أنشئ أسئلة: "
+    else:
+        prefix = "generate questions: "
+
+    input_text = prefix + context
     input_ids = tokenizer.encode(input_text, return_tensors="pt", truncation=True, max_length=512)
     outputs = model.generate(
         input_ids,
@@ -70,22 +85,6 @@ def generate_questions(context):
         if tokenizer.decode(out, skip_special_tokens=True).strip()
     ]
     return [q for q in decoded_outputs if len(q.split()) > 4]
-
-# def generate_questions(context):
-#     input_text = "generate questions: " + context
-#     input_ids = tokenizer.encode(input_text, return_tensors="pt", truncation=True, max_length=512)
-#     outputs = model.generate(
-#         input_ids,
-#         max_length=128,
-#         num_beams=4,
-#         do_sample=True,
-#         top_p=0.92,
-#         top_k=50,
-#         temperature=0.9,
-#         num_return_sequences=3
-#     )
-#     decoded_outputs = [tokenizer.decode(out, skip_special_tokens=True).strip() for out in outputs]
-#     return decoded_outputs
 
 def generate_fill_in_the_blank_question(context):
     input_text = f"Generate a fill-in-the-blank question: {context}"
@@ -117,19 +116,6 @@ def generate_true_false_question(context):
     )
     return tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
 
-# def classify_question(question):
-#     # تحديد نوع السؤال بناءً على النص
-#     if "?" in question or "؟" in question:
-#         if "true" in question.lower() or "false" in question.lower():
-#             return "True/False"
-#         elif "_" in question:
-#             return "Fill in the blank"
-#         elif len(question.split()) > 1:
-#             return "Multiple Choice"
-#         else:
-#             return "Single Choice"
-#     return "Essay"
-
 def classify_question(question):
     q_lower = question.lower()
     if "؟" in question or "?" in question:
@@ -142,20 +128,6 @@ def classify_question(question):
         else:
             return "Essay"
     return "Essay"
-
-# def generate_answer(context, question):
-#     input_text = f"question: {question} context: {context}"
-#     input_ids = tokenizer.encode(input_text, return_tensors="pt", truncation=True, max_length=512)
-#     outputs = model.generate(
-#         input_ids,
-#         max_length=64,
-#         num_beams=4,
-#         early_stopping=True
-#     )
-#     answer = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
-#     if not answer or len(answer) < 3 or answer.lower() in question.lower():
-#         return "No exact answer in the context."
-#     return answer
 
 def generate_answer(context, question):
     input_text = f"question: {question} context: {context}"
@@ -209,34 +181,6 @@ def generate_mcq_options(original_context, question_text, lang="ar"):
 def save_questions(data, filename="questions.json"):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-
-# def prepare_data_for_training(input_file, output_file):
-#     text = read_text_from_file(input_file)
-#     lang = detect_language(text)
-#     original_context = text
-
-#     questions = generate_questions(original_context)
-
-#     data = []
-#     for q in questions:
-#         question_type = classify_question(q)
-#         question_entry = {
-#             "question": q,
-#             "type": question_type
-#         }
-#         if question_type == "Multiple Choice":
-#             question_entry["answer"] = generate_mcq_options(original_context, q, lang=lang)
-#         elif question_type == "True/False":
-#             question_entry["answer"] = generate_true_false_question(original_context)
-#         elif question_type == "Fill in the blank":
-#             question_entry["answer"] = generate_fill_in_the_blank_question(original_context)
-#         else:
-#             # توليد إجابة للمقال
-#             answer = generate_answer(original_context, q)
-#             question_entry["answer"] = answer
-#         data.append(question_entry)
-
-#     save_questions(data, output_file)
 
 def prepare_data_for_training(input_file, output_file):
     text = read_text_from_file(input_file)
@@ -323,8 +267,8 @@ def fine_tune_model(jsonl_file):
         logging_dir="./logs",
         save_steps=500,
         logging_steps=100,
-        # evaluation_strategy="no",
-        save_total_limit=2
+        save_total_limit=2,
+        dataloader_pin_memory=False
     )
 
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
@@ -333,7 +277,9 @@ def fine_tune_model(jsonl_file):
         model=model,
         args=training_args,
         train_dataset=dataset,
-        data_collator=data_collator
+        data_collator=data_collator,
+        processing_class=tokenizer,
+        callbacks=[PrintLearningRateCallback()]
     )
 
     trainer.train()
@@ -342,10 +288,62 @@ def save_trained_model():
     model.save_pretrained("./fine_tuned_model")
     tokenizer.save_pretrained("./fine_tuned_model")
 
+def test_model():
+    try:
+        with open("input.txt", "r", encoding="utf-8") as f:
+            test_context = f.read().strip()
+    except FileNotFoundError:
+        print("⚠️ ملف input.txt غير موجود.")
+        return
+
+    if not test_context:
+        print("⚠️ ملف input.txt فارغ.")
+        return
+
+    context_lang = detect(test_context)
+
+    print("\n🧪 اختبار النموذج بعد التدريب:\n")
+    questions = generate_questions(test_context, lang=context_lang)
+    output = []
+
+    count = 0
+    for q in questions:
+        if detect(q) != context_lang:
+            continue  # تجاهل الأسئلة التي ليست بنفس لغة النص
+
+        q_type = classify_question(q, lang=context_lang)
+
+        item = {"question": q, "type": q_type}
+
+        if q_type == "Multiple Choice":
+            mcq = generate_mcq_options(test_context, q, lang=context_lang)
+            item["answer"] = {
+                "options": mcq["options"],
+                "correctAnswer": mcq["correctAnswer"]
+            }
+
+        elif q_type == "Essay":
+            item["answer"] = "Open-ended response from the student about the topic."
+
+        else:
+            ans = generate_answer(test_context, q, lang=context_lang)
+            item["answer"] = ans
+
+        output.append(item)
+        count += 1
+        if count >= 5:
+            break
+
+    with open("questions_output.json", "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=4)
+
+    print("✅ تم حفظ 5 أسئلة باللغة المطابقة في questions_output.json")
+
 if __name__ == "__main__":
     context_folder = "training_context"
     question_folder = "training_question"
     all_jsonl_data = []
+    test_model()
 
     for i in range(1, 21):  
         context_path = os.path.join(context_folder, f"{i}.txt")
@@ -390,6 +388,7 @@ if __name__ == "__main__":
         fine_tune_model(jsonl_file)
         save_trained_model()
         print("\n✅ تم تدريب النموذج وحفظه بنجاح.")
+        test_model()  # ✅ اختبار النموذج المدرب
     else:
         print("\n⚠️ لم يتم العثور على بيانات كافية للتدريب.")
 
